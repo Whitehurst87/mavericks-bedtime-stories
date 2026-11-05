@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="icon" href="favicon.png">
+<title>Maverick's Bedtime Stories</title>
+<style>
+  html, body {
+    margin: 0; padding: 0; height: 100%; overflow: hidden;
+    background: #12101a; color: #f4efe4;
+    font-family: ui-monospace, monospace;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: none;
+  }
+  #wrap {
+    position: fixed; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+  }
+  canvas {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+    touch-action: none;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="512" height="288"></canvas></div>
+<script src="assets/manifest.js"></script>
+<script src="assets/wang.js"></script>
+<script src="js/art.js"></script>
+<script src="js/dialogue.js"></script>
+<script src="js/hooks.js"></script>
+<script src="js/world.js"></script>
+<script src="js/level2.js"></script>
+<script src="js/level3.js"></script>
+<script src="js/chapters.js"></script>
+<script src="js/profile.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/storybook.js"></script>
+<!-- one script tag per built chapter; add the next one here -->
+<script src="js/chapters/ch01.js"></script>
+<script src="js/chapters/ch02.js"></script>
+<script src="js/chapters/part1.js"></script>
+<script src="js/chapters/ch03.js"></script>
+<script src="js/chapters/ch04.js"></script>
+<script src="js/chapters/ch05.js"></script>
+<script src="js/chapters/ch06.js"></script>
+<script src="js/chapters/ch07.js"></script>
+<script src="js/chapters/ch08.js"></script>
+<script src="js/chapters/ch09.js"></script>
+<script src="js/chapters/ch10.js"></script>
+<script src="js/chapters/ch46.js"></script>
+<script src="js/chapters/ch47.js"></script>
+<script src="js/chapters/ch48.js"></script>
+<script src="js/chapters/ch49.js"></script>
+<script src="js/chapters/ch50.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
